@@ -19,7 +19,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/astaxie/beego/config"
+	"github.com/liuyuanting1209/beego/config"
 )
 
 func TestXML(t *testing.T) {
@@ -116,10 +116,10 @@ func TestXML(t *testing.T) {
 
 	}
 
-	if err = xmlconf.Set("name", "astaxie"); err != nil {
+	if err = xmlconf.Set("name", "liuyuanting1209"); err != nil {
 		t.Fatal(err)
 	}
-	if xmlconf.String("name") != "astaxie" {
+	if xmlconf.String("name") != "liuyuanting1209" {
 		t.Fatal("get name error")
 	}
 }

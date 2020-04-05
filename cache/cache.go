@@ -16,17 +16,17 @@
 // Usage:
 //
 // import(
-//   "github.com/astaxie/beego/cache"
+//   "github.com/liuyuanting1209/beego/cache"
 // )
 //
 // bm, err := cache.NewCache("memory", `{"interval":60}`)
 //
 // Use it like this:
 //
-//	bm.Put("astaxie", 1, 10 * time.Second)
-//	bm.Get("astaxie")
-//	bm.IsExist("astaxie")
-//	bm.Delete("astaxie")
+//	bm.Put("liuyuanting1209", 1, 10 * time.Second)
+//	bm.Get("liuyuanting1209")
+//	bm.IsExist("liuyuanting1209")
+//	bm.Delete("liuyuanting1209")
 //
 //  more docs http://beego.me/docs/module/cache.md
 package cache

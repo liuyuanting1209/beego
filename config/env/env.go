@@ -21,7 +21,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/astaxie/beego/utils"
+	"github.com/liuyuanting1209/beego/utils"
 )
 
 var env *utils.BeeMap

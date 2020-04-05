@@ -15,7 +15,7 @@
 // Package validation for validations
 //
 //	import (
-//		"github.com/astaxie/beego/validation"
+//		"github.com/liuyuanting1209/beego/validation"
 //		"log"
 //	)
 //
